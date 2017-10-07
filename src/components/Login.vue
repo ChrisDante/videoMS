@@ -29,7 +29,7 @@ export default {
       )
       }
       else{
-        console.log('hello world');
+        console.log('more params are needed');
       }
     }
   }

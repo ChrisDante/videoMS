@@ -16,6 +16,11 @@ export default new Router({
       path: '/admin',
       name: 'Control Panel',
       component: ControlPanel,
+      children: [
+        {
+          path: '',
+        }
+      ]
     }
   ],
 });
